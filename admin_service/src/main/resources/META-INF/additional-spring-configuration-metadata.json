@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "eureka.client.instance.preferIpAddress",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.instance.preferIpAddress'"
+  },
+  {
+    "name": "eureka.client.instance.preferIpAddress",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.instance.preferIpAddress'"
+  },
+  {
+    "name": "spring.application.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.password'"
+  },
+  {
+    "name": "spring.application.user",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.user'"
+  }
+]}
