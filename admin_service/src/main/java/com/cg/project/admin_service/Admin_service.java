@@ -1,11 +1,17 @@
 package com.cg.project.admin_service;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class Admin_service {
 	
 	public Admin_service() {
 		
 	}
-
+	@Id
+	@GeneratedValue
 	private int a_id;
 	private String name;
 	private String a_username;

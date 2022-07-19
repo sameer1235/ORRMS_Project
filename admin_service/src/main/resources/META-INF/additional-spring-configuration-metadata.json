@@ -18,5 +18,35 @@
     "name": "spring.application.user",
     "type": "java.lang.String",
     "description": "A description for 'spring.application.user'"
+  },
+  {
+    "name": "spring.data.jpa.repositories.hibernate.dailect",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.jpa.repositories.hibernate.dailect'"
+  },
+  {
+    "name": "spring.data.jpa.repositories.hibernate.dailect",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.jpa.repositories.hibernate.dailect'"
+  },
+  {
+    "name": "spring.data.jpa.repositories.hibernate.dailect",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.jpa.repositories.hibernate.dailect'"
+  },
+  {
+    "name": "spring.data.jpa.repositories.hibernate.dailect",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.jpa.repositories.hibernate.dailect'"
+  },
+  {
+    "name": "spring.data.jpa.repositories.hibernate.dailect",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.jpa.repositories.hibernate.dailect'"
+  },
+  {
+    "name": "spring.data.jpa.repositories.hibernate.dailect",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.jpa.repositories.hibernate.dailect'"
   }
 ]}
