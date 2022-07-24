@@ -1,4 +1,4 @@
-package com.cg.project.admin_service;
+package com.cg.project.Entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -46,6 +46,11 @@ public class Admin_service {
 		this.name = name;
 		this.a_username = a_username;
 		this.a_Password = a_Password;
+	}
+	@Override
+	public String toString() {
+		return "Admin_service [a_id=" + a_id + ", name=" + name + ", a_username=" + a_username + ", a_Password="
+				+ a_Password + "]";
 	}
 	
 	
