@@ -1,12 +1,9 @@
-package com.cg.project.Service;
+package com.cg.project.Train_service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.cg.project.Entity.Train;
-import com.cg.project.Repository.TrainRepository;
 
 
 @Service

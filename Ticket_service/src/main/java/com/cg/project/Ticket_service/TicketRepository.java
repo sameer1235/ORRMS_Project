@@ -1,8 +1,6 @@
-package com.cg.project.Repository;
+package com.cg.project.Ticket_service;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.cg.project.Entity.Ticket;
 
 public interface TicketRepository extends JpaRepository<Ticket, Integer> {
 

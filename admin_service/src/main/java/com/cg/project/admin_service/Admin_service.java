@@ -1,4 +1,4 @@
-package com.cg.project.Entity;
+package com.cg.project.admin_service;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

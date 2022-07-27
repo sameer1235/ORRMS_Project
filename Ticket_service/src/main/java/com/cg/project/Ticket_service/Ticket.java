@@ -1,4 +1,4 @@
-package com.cg.project.Entity;
+package com.cg.project.Ticket_service;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

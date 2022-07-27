@@ -1,4 +1,4 @@
-package com.cg.project.Controller;
+package com.cg.project.payment_service;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.cg.project.Entity;
+package com.cg.project.payment_service;
 
 public class Payment {
 	public Payment() {

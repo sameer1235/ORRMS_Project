@@ -1,12 +1,9 @@
-package com.cg.project.Service;
+package com.cg.project.admin_service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.cg.project.Entity.Admin_service;
-import com.cg.project.Repository.Admin_serviceRepo;
 
 @Service
 public class AdminService {

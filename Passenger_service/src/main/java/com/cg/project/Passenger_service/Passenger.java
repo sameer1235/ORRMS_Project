@@ -1,4 +1,4 @@
-package com.cg.project.Entity;
+package com.cg.project.Passenger_service;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,7 +14,7 @@ public class Passenger {
 	private String PrGender;
 	private int age;
 	private String Address;
-	private int Mno;
+	private double Mno;
 	
 	public Passenger() {
 		
@@ -60,10 +60,10 @@ public class Passenger {
 		Address = address;
 	}
 	
-	public int getMno() {
+	public double getMno() {
 		return Mno;
 	}
-	public void setMno(int mno) {
+	public void setMno(double mno) {
 		Mno = mno;
 	}
 	@Override

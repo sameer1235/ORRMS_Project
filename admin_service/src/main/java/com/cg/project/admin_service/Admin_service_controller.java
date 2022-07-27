@@ -1,4 +1,4 @@
-package com.cg.project.Controller;
+package com.cg.project.admin_service;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,16 +11,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cg.project.Entity.Admin_service;
-import com.cg.project.Service.AdminService;
-
 @RestController
 @RequestMapping("/admin")
 public class Admin_service_controller {
 	@Autowired
 	private AdminService service;
 	
-	    @GetMapping("/{adminId}")
+	    @RequestMapping("/{adminId}")
 	    public String getadmininfo(@PathVariable("adminId") int adminId){
 	       return "hello world...!!! This is admin service";
 	      
@@ -33,12 +30,12 @@ public class Admin_service_controller {
 	    public List<Admin_service> addAdmin(@RequestBody List<Admin_service> admin) {
 	    	return service.saveAdmins(admin);
 	    }
-	    @GetMapping("/getadim")
+	    @GetMapping("/getadmin")
 	    public List<Admin_service> findAllAdmins(){
 	    	return service.getAdmin();
 	    }
 	    
-	    @GetMapping("/getadim/{a_id}")
+	    @GetMapping("/getadmin/{a_id}")
 	    public Admin_service findAdminById(@PathVariable int a_id){
 	    	return service.getAdminById(a_id);
 	    }

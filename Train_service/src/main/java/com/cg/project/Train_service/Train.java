@@ -1,6 +1,8 @@
-package com.cg.project.Entity;
+package com.cg.project.Train_service;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 public class Train {
@@ -18,7 +20,8 @@ public class Train {
 		this.arrival = arrival;
 		this.departure = departure;
 	}
-	
+	@Id
+	@GeneratedValue
 	private int TnId;
 	private int TnNo;
 	private String TnName;
